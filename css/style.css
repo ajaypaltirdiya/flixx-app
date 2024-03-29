@@ -65,7 +65,9 @@ ul {
   border-color: #ccc;
   cursor: not-allowed;
 }
-
+.text-center{
+  text-align: center;
+}
 .btn:disabled:hover {
   background: transparent;
   color: #fff;
@@ -119,7 +121,9 @@ ul {
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   grid-gap: 20px;
 }
-
+.swiper-slide a {
+  background: #071e44;
+}
 /* Card */
 .card {
   background: #04376b;
@@ -247,7 +251,10 @@ section h2 {
   border-bottom: 1px solid #fff;
   border-color: rgba(255, 255, 255, 0.1);
 }
-
+ul.list-group {
+  display: flex;
+  gap: 4px;
+}
 /* Search */
 .search {
   padding: 60px;
@@ -340,4 +347,15 @@ section h2 {
 
 .alert-error {
   background: red;
+}
+.movie_show_backDrop,.show_show_backDrop {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: -1;
+  right: 0;
+  opacity: 0.33;
+  background-size: 100%;
 }
