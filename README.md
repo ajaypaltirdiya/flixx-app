@@ -11,4 +11,4 @@
 2. CSS.<br>
 3. Vanilla JavaScript.<br>
 
-Click here to visit page -> <a href="https://at-flixx-1hakok018-ajays-projects-a568969d.vercel.app/">View This Page</a>
+Click here to visit page -> <a href="https://at-flixx-1hakok018-ajays-projects-a568969d.vercel.app/" target="_blank">View This Page</a>
